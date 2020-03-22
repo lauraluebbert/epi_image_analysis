@@ -1,6 +1,7 @@
-glob
-os
-re
-numpy
-pandas
-skimage
+name: epi_image_analysis-environment
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - scikit-image
